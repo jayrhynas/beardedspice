@@ -10,6 +10,13 @@
 #import <NotificationCenter/NotificationCenter.h>
 
 @interface TodayViewController () <NCWidgetProviding>
+@property (weak) IBOutlet NSImageView *artworkView;
+@property (weak) IBOutlet NSTextField *titleLabel;
+@property (weak) IBOutlet NSTextField *subtitleLabel;
+
+@property (weak) IBOutlet NSProgressIndicator *progressBar;
+
+@property (weak) IBOutlet NSButton *playButton;
 
 @end
 
@@ -20,7 +27,21 @@
     // with NoData if nothing has changed or NewData if there is new data since the last
     // time we called you
     completionHandler(NCUpdateResultNoData);
+    
 }
+
+- (IBAction)playClicked:(id)sender {
+    
+}
+
+- (IBAction)prevClicked:(id)sender {
+    
+}
+
+- (IBAction)nextClicked:(id)sender {
+    
+}
+
 
 @end
 
