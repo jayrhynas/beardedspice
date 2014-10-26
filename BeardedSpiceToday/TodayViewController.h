@@ -8,6 +8,19 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface TodayViewController : NSViewController
+#import "Chrome.h"
+#import "Safari.h"
+#import "Tab.h"
+#import "MediaStrategyRegistry.h"
+
+@interface TodayViewController : NSViewController {
+    ChromeApplication *chromeApp;
+    ChromeApplication *canaryApp;
+    
+    SafariApplication *safariApp;
+    
+    id <Tab> activeTab;
+    MediaStrategyRegistry *mediaStrategyRegistry;
+}
 
 @end

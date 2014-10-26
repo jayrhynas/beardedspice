@@ -8,7 +8,9 @@
         <customObject id="-2" userLabel="File's Owner" customClass="TodayViewController">
             <connections>
                 <outlet property="artworkView" destination="k7i-6d-AT2" id="bE9-W4-ihE"/>
+                <outlet property="nextButton" destination="Ezz-cz-hKh" id="3xj-og-CbB"/>
                 <outlet property="playButton" destination="gq7-nB-TSz" id="AGy-Nk-MDi"/>
+                <outlet property="prevButton" destination="Yoo-tf-1GZ" id="gXl-nu-nVu"/>
                 <outlet property="progressBar" destination="SyX-RU-kKd" id="N0u-Dz-8Ly"/>
                 <outlet property="subtitleLabel" destination="BSr-oS-aK2" id="BZN-dC-E8h"/>
                 <outlet property="titleLabel" destination="KU6-MB-4x2" id="13k-vz-VQH"/>

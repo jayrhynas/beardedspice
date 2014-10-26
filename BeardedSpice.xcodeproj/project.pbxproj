@@ -63,6 +63,36 @@
 		9A0F5AEA19FC809F00F4DD90 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F5AE119FC809F00F4DD90 /* play@2x.png */; };
 		9A0F5AEB19FC809F00F4DD90 /* rewind.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F5AE219FC809F00F4DD90 /* rewind.png */; };
 		9A0F5AEC19FC809F00F4DD90 /* rewind@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F5AE319FC809F00F4DD90 /* rewind@2x.png */; };
+		9A0F5AEE19FC8D0600F4DD90 /* AmazonMusicStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BDDFDB19801E57009C897F /* AmazonMusicStrategy.m */; };
+		9A0F5AEF19FC8D0600F4DD90 /* VkStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DA43D41950BF55000E98AC /* VkStrategy.m */; };
+		9A0F5AF019FC8D0600F4DD90 /* BeatsMusicStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 523F839E189747DF007F2FFD /* BeatsMusicStrategy.m */; };
+		9A0F5AF119FC8D0600F4DD90 /* SynologyStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5CCF411887FC0700F7C1C3 /* SynologyStrategy.m */; };
+		9A0F5AF219FC8D0600F4DD90 /* ShufflerFmStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F35ED41888357000AEB3E1 /* ShufflerFmStrategy.m */; };
+		9A0F5AF319FC8D0600F4DD90 /* MediaStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A3491B185EA03300C4A62B /* MediaStrategy.m */; };
+		9A0F5AF419FC8D0600F4DD90 /* OvercastStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699AAD3E1992C0BD0021BFF2 /* OvercastStrategy.m */; };
+		9A0F5AF519FC8D0600F4DD90 /* MediaStrategyRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A34921185EA43900C4A62B /* MediaStrategyRegistry.m */; };
+		9A0F5AF619FC8D0600F4DD90 /* YouTubeStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A34924185EB20E00C4A62B /* YouTubeStrategy.m */; };
+		9A0F5AF719FC8D0600F4DD90 /* SlackerStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 039D83411892173600DB426D /* SlackerStrategy.m */; };
+		9A0F5AF819FC8D0600F4DD90 /* PandoraStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A34928185EE58600C4A62B /* PandoraStrategy.m */; };
+		9A0F5AF919FC8D0600F4DD90 /* StitcherStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AAFD7718E0A79500640767 /* StitcherStrategy.m */; };
+		9A0F5AFA19FC8D0600F4DD90 /* BandCampStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A3492B185EE73700C4A62B /* BandCampStrategy.m */; };
+		9A0F5AFB19FC8D0600F4DD90 /* GrooveSharkStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A3492E185EE82700C4A62B /* GrooveSharkStrategy.m */; };
+		9A0F5AFC19FC8D0600F4DD90 /* SoundCloudStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A34931185EE8EE00C4A62B /* SoundCloudStrategy.m */; };
+		9A0F5AFD19FC8D0600F4DD90 /* HypeMachineStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A34934185EE97B00C4A62B /* HypeMachineStrategy.m */; };
+		9A0F5AFE19FC8D0600F4DD90 /* LastFmStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 969E45711863E5830037226B /* LastFmStrategy.m */; };
+		9A0F5AFF19FC8D0600F4DD90 /* SpotifyStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0370588D1863F47300C691B3 /* SpotifyStrategy.m */; };
+		9A0F5B0019FC8D0600F4DD90 /* GoogleMusicStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 031D8145187F929D00A93E00 /* GoogleMusicStrategy.m */; };
+		9A0F5B0119FC8D0600F4DD90 /* RdioStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 031D8148187F982A00A93E00 /* RdioStrategy.m */; };
+		9A0F5B0219FC8D0600F4DD90 /* EightTracksStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF442D41886F71400CD7266 /* EightTracksStrategy.m */; };
+		9A0F5B0319FC8D0600F4DD90 /* SongzaStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A699C49188B051000BB647E /* SongzaStrategy.m */; };
+		9A0F5B0419FC8D0600F4DD90 /* MixCloudStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E89B718BB010600FE0DBB /* MixCloudStrategy.m */; };
+		9A0F5B0519FC8D0600F4DD90 /* MusicUnlimitedStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E89BA18BB05F400FE0DBB /* MusicUnlimitedStrategy.m */; };
+		9A0F5B0619FC8D0600F4DD90 /* YandexMusicStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = B500FC3718D33F2E00FEFD74 /* YandexMusicStrategy.m */; };
+		9A0F5B0719FC8D0600F4DD90 /* XboxMusicStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6FC6D1192A09290050F426 /* XboxMusicStrategy.m */; };
+		9A0F5B0819FC8D0600F4DD90 /* BopFm.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D98CD8197F34BD00941CBD /* BopFm.m */; };
+		9A0F5B0919FC8D0600F4DD90 /* VimeoStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E38FAD51994CE57005C2465 /* VimeoStrategy.m */; };
+		9A0F5B0A19FC8D1800F4DD90 /* ChromeTabAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F33EEC1857E3C000E8F77E /* ChromeTabAdapter.m */; };
+		9A0F5B0B19FC8D1800F4DD90 /* SafariTabAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F33EEF1857E59B00E8F77E /* SafariTabAdapter.m */; };
 		9A699C4A188B051000BB647E /* SongzaStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A699C49188B051000BB647E /* SongzaStrategy.m */; };
 		9AEB073D19FC2D2100375520 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AEB073C19FC2D2100375520 /* NotificationCenter.framework */; };
 		9AEB074419FC2D2100375520 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AEB074219FC2D2100375520 /* InfoPlist.strings */; };
@@ -203,6 +233,7 @@
 		9A0F5AE119FC809F00F4DD90 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
 		9A0F5AE219FC809F00F4DD90 /* rewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rewind.png; sourceTree = "<group>"; };
 		9A0F5AE319FC809F00F4DD90 /* rewind@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rewind@2x.png"; sourceTree = "<group>"; };
+		9A0F5AED19FC88F500F4DD90 /* BeardedSpice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BeardedSpice.entitlements; sourceTree = "<group>"; };
 		9A699C48188B051000BB647E /* SongzaStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongzaStrategy.h; sourceTree = "<group>"; };
 		9A699C49188B051000BB647E /* SongzaStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongzaStrategy.m; sourceTree = "<group>"; };
 		9AEB073B19FC2D2100375520 /* BeardedSpiceToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BeardedSpiceToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -391,6 +422,7 @@
 		967933351855173100A49AC7 /* BeardedSpice */ = {
 			isa = PBXGroup;
 			children = (
+				9A0F5AED19FC88F500F4DD90 /* BeardedSpice.entitlements */,
 				0369231B1862934000E04DDB /* Preferences */,
 				03A34919185E9FC700C4A62B /* MediaStrategies */,
 				03F33EE31857E21100E8F77E /* Tabs */,
@@ -547,11 +579,23 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Tyler Rhodes / Jose Falcon";
 				TargetAttributes = {
+					9679332B1855173100A49AC7 = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+						};
+					};
 					9679334C1855173100A49AC7 = {
 						TestTargetID = 9679332B1855173100A49AC7;
 					};
 					9AEB073A19FC2D2100375520 = {
 						CreatedOnToolsVersion = 6.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -708,7 +752,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A0F5AEF19FC8D0600F4DD90 /* VkStrategy.m in Sources */,
+				9A0F5AF719FC8D0600F4DD90 /* SlackerStrategy.m in Sources */,
+				9A0F5AFC19FC8D0600F4DD90 /* SoundCloudStrategy.m in Sources */,
+				9A0F5AFA19FC8D0600F4DD90 /* BandCampStrategy.m in Sources */,
+				9A0F5B0119FC8D0600F4DD90 /* RdioStrategy.m in Sources */,
+				9A0F5B0419FC8D0600F4DD90 /* MixCloudStrategy.m in Sources */,
+				9A0F5AF119FC8D0600F4DD90 /* SynologyStrategy.m in Sources */,
+				9A0F5B0B19FC8D1800F4DD90 /* SafariTabAdapter.m in Sources */,
+				9A0F5B0619FC8D0600F4DD90 /* YandexMusicStrategy.m in Sources */,
+				9A0F5AFE19FC8D0600F4DD90 /* LastFmStrategy.m in Sources */,
+				9A0F5AF219FC8D0600F4DD90 /* ShufflerFmStrategy.m in Sources */,
+				9A0F5B0719FC8D0600F4DD90 /* XboxMusicStrategy.m in Sources */,
+				9A0F5B0519FC8D0600F4DD90 /* MusicUnlimitedStrategy.m in Sources */,
+				9A0F5AFF19FC8D0600F4DD90 /* SpotifyStrategy.m in Sources */,
+				9A0F5AF819FC8D0600F4DD90 /* PandoraStrategy.m in Sources */,
+				9A0F5AF519FC8D0600F4DD90 /* MediaStrategyRegistry.m in Sources */,
+				9A0F5AEE19FC8D0600F4DD90 /* AmazonMusicStrategy.m in Sources */,
+				9A0F5AF019FC8D0600F4DD90 /* BeatsMusicStrategy.m in Sources */,
+				9A0F5B0919FC8D0600F4DD90 /* VimeoStrategy.m in Sources */,
+				9A0F5AF919FC8D0600F4DD90 /* StitcherStrategy.m in Sources */,
+				9A0F5B0319FC8D0600F4DD90 /* SongzaStrategy.m in Sources */,
+				9A0F5AF619FC8D0600F4DD90 /* YouTubeStrategy.m in Sources */,
+				9A0F5AF319FC8D0600F4DD90 /* MediaStrategy.m in Sources */,
 				9AEB074719FC2D2100375520 /* TodayViewController.m in Sources */,
+				9A0F5B0819FC8D0600F4DD90 /* BopFm.m in Sources */,
+				9A0F5AFB19FC8D0600F4DD90 /* GrooveSharkStrategy.m in Sources */,
+				9A0F5B0019FC8D0600F4DD90 /* GoogleMusicStrategy.m in Sources */,
+				9A0F5AFD19FC8D0600F4DD90 /* HypeMachineStrategy.m in Sources */,
+				9A0F5B0219FC8D0600F4DD90 /* EightTracksStrategy.m in Sources */,
+				9A0F5AF419FC8D0600F4DD90 /* OvercastStrategy.m in Sources */,
+				9A0F5B0A19FC8D1800F4DD90 /* ChromeTabAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -837,6 +911,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = BeardedSpice/BeardedSpice.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -854,6 +929,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = BeardedSpice/BeardedSpice.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -911,7 +987,6 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = BeardedSpiceToday/BeardedSpiceToday.entitlements;
-				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -934,7 +1009,6 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = BeardedSpiceToday/BeardedSpiceToday.entitlements;
-				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
